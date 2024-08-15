@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+.left {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.logo {
+    width: 50px; /* Adjust the size as needed */
+    height: 50px; /* Ensure the height matches the width */
+    border-radius: 50%; /* Makes the logo circular */
+    object-fit: cover; /* Ensures the image covers the circle properly */
+    margin-right: 10px;
+    margin-left: -150px;
+}
+
+.flavorFusion {
+    font-family: 'Dancing Script', cursive;
+    font-size: 37px; /* Adjust the size as needed */
+    color: #5b1408; /* Adjust the color as needed */
+}
+
+.container {
+    width: 100%;
+    background-color: #FAAB36; /* Theme color */
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    height: 60px; /* Adjust based on the actual height of your Navbar */
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto; /* Center the wrapper */
+    height: 100%;
+}
+
+.center {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.listItem {
+    margin: 0;
+}
+
+.listItem a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.listItem a:hover,
+.listItem a:focus,
+.listItem a:active {
+    background-color: #ffd700; /* Light color on hover */
+    color: #000; /* Optional: Change text color on hover */
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.searchInput {
+    padding: 5px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.searchIcon {
+    font-size: 20px; /* Adjust the size as needed */
+}
+
+.logoutButton {
+    background-color: #FF5733; /* Optional */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: -90px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.avatar {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Ensure the height matches the width */
+    border-radius: 50%; /* Makes the avatar circular */
+    object-fit: cover; /* Ensures the image covers the circle properly */
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.dropdownContent {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px 24px; /* Increased padding */
+    z-index: 1;
+    right: 0;
+    width: 200px; /* Adjust width as needed */
+}
+
+.dropdownContent a {
+    color: black;
+    padding: 12px 0; /* Increased padding */
+    text-decoration: none;
+    display: block;
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.dropdownContent a:hover {
+    background-color: #ddd;
+}
